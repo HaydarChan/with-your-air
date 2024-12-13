@@ -39,7 +39,7 @@ export default function Home() {
         </Link>
       </div>
       <div 
-        className="w-[250px] h-[250px] bg-pink-100 rounded-full backdrop-blur-0 absolute -z-20 filter blur-lg translate-y-12"
+        className="w-[250px] h-[250px] bg-pink-200 rounded-full backdrop-blur-0 absolute -z-20 filter blur-lg translate-y-12"
       />
     </motion.div>
   );
