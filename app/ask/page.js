@@ -30,15 +30,15 @@ const AskPage = () => {
         <p className="text-xl md:text-3xl text-gray-800 font-beanie">would you like to hang out sometime?</p>
         <p className="text-xl md:text-3xl text-gray-800 font-beanie">i'd love to get to know you better</p>
         <div className="mt-4 w-full flex justify-center gap-x-6">
-          <Button>
-            Yes :)
+          <Button className="w-[100px] space-x-2">
+            Yes <span>:)</span>
           </Button>
-          <Button variant={"outline"}>
-            No :(
+          <Button variant={"outline"} className="w-[100px] space-x-2">
+            No <span>:(</span>
           </Button>
         </div>
       </div>
-      <iframe className="rounded-[12px]" src="https://open.spotify.com/embed/track/5mtTAScDytxMMqZj14NmlN?utm_source=generator" width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <iframe className="rounded-[12px]" src="https://open.spotify.com/embed/track/5mtTAScDytxMMqZj14NmlN?utm_source=generator&theme=0" width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </motion.div>
   )
 }

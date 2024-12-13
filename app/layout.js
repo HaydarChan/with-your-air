@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "For Grace",
-  description: "This is dedicated for grace.",
+  description: "",
 };
 
 export default function RootLayout({ children }) {

@@ -21,7 +21,7 @@ export default function Home() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }} 
       transition={{ duration: 1 }}
-      className="flex flex-col items-center mt-12 px-4"
+      className="flex flex-col items-center mt-12 px-4 relative"
     > 
       <Image 
         src={Flower}
@@ -38,6 +38,9 @@ export default function Home() {
           </Button>
         </Link>
       </div>
+      <div 
+        className="w-[250px] h-[250px] bg-pink-100 rounded-full backdrop-blur-0 absolute -z-20 filter blur-lg translate-y-12"
+      />
     </motion.div>
   );
 }
